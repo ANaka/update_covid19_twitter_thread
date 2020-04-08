@@ -1,2 +1,4 @@
 # update_covid19_twitter_thread
 A while ago I saw a bad tweet comparing COVID-19 to the flu. Because I am a petty man, I have been keeping [a running thread](https://twitter.com/gottapatchemall/status/1246956300904226816) documenting the growth of COVID-19 statistics since then. I have decided to automate this because it is extremely depressing to do it manually.
+
+I'm using the excellent [tweepy package](https://www.tweepy.org/) to do pretty much everything here. If you want to do something similar with your own account you'll need to register an app to get credentials for API access - there are many tutorials on how to do this, see [an example here](https://iag.me/socialmedia/how-to-create-a-twitter-app-in-8-easy-steps/). Note that you'll want to be careful about managing your credential secrets if you do this. 
